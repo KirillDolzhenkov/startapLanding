@@ -17,13 +17,17 @@ body {
 .header-nav {
     font-family: RobotoM, sans-serif;
     margin-left: 120px;
-    margin-right: 149px; /*180-31*/
+    margin-right: 185px;
 }
 
 .header-nav a {
     color: white;
     margin-right: 31px;
     text-decoration: none;
+}
+
+.header-nav a:last-child {
+    margin-right: 0;
 }
 
 .header-nav a:hover {

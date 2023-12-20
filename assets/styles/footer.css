@@ -17,6 +17,10 @@
     margin-right: 75px;
 }
 
+.links:last-child {
+    margin-right: 0;
+}
+
 .link-title {
     font-family: RobotoM, sans-serif;
     color: #FFFFFF;

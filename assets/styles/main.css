@@ -33,17 +33,20 @@
 .main-image {
     display: flex;
     margin-top: 80px;
-
 }
 
 .main-image ul {
     padding: 0;
-    margin-top: -35px; /*!*/
+    margin-top: 0;
 }
 
- li {
-   list-style-type: none;
+.main-image ul li {
+    list-style-type: none;
     margin-top: 35px;
+}
+
+.main-image ul li:first-child {
+    margin-top: 0;
 }
 
 .main-li-header {
@@ -94,8 +97,7 @@
 }
 
 .main-card h5 {
-    /*margin: 0;*/
-    margin-top: 30px;
+    margin: 30px 0 0 0;
     color: #5c5c5c;
     font-size: 16px;
     font-family: RobotoL, sans-serif;
@@ -105,6 +107,10 @@
 .gallery-section img {
     border-radius: 12px;
     margin-right: 33px;
+}
+
+.gallery-section img:last-child {
+    margin-right: 0;
 }
 
 .gallery-first-row,
@@ -119,14 +125,14 @@
     margin-bottom: 44px;
 }
 
-.partners-images {
-    margin-left: 74px; /*!*/
-}
-
 .partners-images img {
     margin-top: 50px;
     margin-bottom: 44px;
     margin-right: 74px;
+}
+
+.partners-images img:last-child {
+    margin-right: 0;
 }
 
 .testimonials {
