@@ -5,7 +5,8 @@
 .main-features,
 .main-content,
 .main-gallery,
-.main-partners {
+.main-partners,
+.main-testimonials{
     color: #FFFFFF;
     display: flex;
     flex-direction: column;
@@ -126,4 +127,39 @@
     margin-top: 50px;
     margin-bottom: 44px;
     margin-right: 74px;
+}
+
+.testimonials {
+    margin-top: 50px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.testimonial {
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 40px;
+    width: 430px;
+    margin-bottom: 20px;
+    margin-right: 23px;
+}
+
+.testimonials-title {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.testimonials-title img {
+    margin-right: 23px;
+}
+
+.testimonial-name,
+.testimonial-job {
+    font-family: RobotoM, sans-serif;
+}
+
+.testimonial-job {
+    margin-top: 8px;
 }
