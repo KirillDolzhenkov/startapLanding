@@ -1,1 +1,1 @@
-## 🌐 [Demo](https://kirilldolzhenkov.github.io/startapLanding/)
+## 🌐 [github-pages](https://kirilldolzhenkov.github.io/startapLanding/)
